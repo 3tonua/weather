@@ -47,8 +47,7 @@ $.when(Weather.getForecastWeather()).then(function (resultf) {
             $('.forecast-icon1').attr('src', 'img/cloud.svg');
         }
     }
-
-    console.log(icon);
+    ImgChange();
 
 
     $('.sky1').html(forecast[0].day.condition.text);
